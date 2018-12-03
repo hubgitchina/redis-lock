@@ -1,6 +1,7 @@
 package cn.com.ut.biz.redis;
 
 public class TestRedis {
+	
 	public static void main(String[] args) {
 
 		Service service = new Service();
@@ -9,4 +10,5 @@ public class TestRedis {
 			threadA.start();
 		}
 	}
+	
 }
